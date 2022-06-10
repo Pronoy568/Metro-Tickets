@@ -1,0 +1,35 @@
+.ticket-layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ticketService{ 
+    text-align: center;
+    margin-top: 100px;
+} 
+.margin{
+    margin-top: 56px;
+}
+
+@media screen and (max-width: 600px){
+    .ticket-layout {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+    .ticketService {
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+}
+@media (min-width: 601px) and (max-width: 980px) {
+    .ticketService {
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    .ticket-layout {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

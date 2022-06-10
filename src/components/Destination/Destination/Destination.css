@@ -1,0 +1,25 @@
+.Destination-Text {
+    margin-top: 30px;
+    text-align: center;
+}
+.Destination-spacing{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+@media screen and (max-width: 600px){
+    .Destination-spacing{
+        margin-top: 30px;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1370px) {
+    .Destination-spacing {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+}

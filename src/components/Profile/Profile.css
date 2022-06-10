@@ -1,0 +1,13 @@
+.img-circle{
+    border : 1px solid transparent;
+    border-radius : 50%;
+}
+.img-circle-null{
+   border-radius : 55%;
+}
+.profile-container{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex-direction : column;
+}

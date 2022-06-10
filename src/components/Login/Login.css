@@ -1,0 +1,8 @@
+.google-signIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-container{
+    padding-bottom: 30px;
+}
